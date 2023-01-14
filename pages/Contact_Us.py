@@ -8,6 +8,5 @@ with st.form(key="my_form"):
     button = st.form_submit_button("Send message")
     if button:
         message = message + user_email
-        print("send meessage btn clicked")
 
 
